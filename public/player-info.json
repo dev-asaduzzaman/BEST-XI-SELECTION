@@ -44,7 +44,7 @@
       "batting_style": "Right-Hand-Bat",
       "bowling_style": "None",
       "price": "$1300000",
-      "image_url": "https://static.toiimg.com/photo/120896543.cms"
+      "image_url": "https://www.aljazeera.com/wp-content/uploads/2024/03/AP23116421466279-1711875056.jpg?resize=1800%2C1800"
     },
     {
       "id": "P005",
@@ -55,7 +55,7 @@
       "batting_style": "Left-Hand-Bat",
       "bowling_style": "Left-arm Fast",
       "price": "$1250000",
-      "image_url": "https://example.com/images/mitchell_starc.png"
+      "image_url": "https://static.toiimg.com/photo/120896543.cms"
     },
     {
       "id": "P006",
@@ -66,7 +66,7 @@
       "batting_style": "Left-Hand-Bat",
       "bowling_style": "Right-arm Fast-Medium",
       "price": "$1600000",
-      "image_url": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/65748.png"
+      "image_url": "https://resources.ecb.co.uk/player-photos/test/800x800/1154.png"
     },
     {
       "id": "P007",
@@ -77,7 +77,7 @@
       "batting_style": "Right-Hand-Bat",
       "bowling_style": "Legbreak Googly",
       "price": "$1450000",
-      "image_url": "https://example.com/images/rashid_khan.png"
+      "image_url": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/65748.png"
     },
     {
       "id": "P008",
@@ -110,7 +110,7 @@
       "batting_style": "Right-Hand-Bat",
       "bowling_style": "Right-arm Fast",
       "price": "$1350000",
-      "image_url": "https://example.com/images/jasprit_bumrah.png"
+      "image_url": "https://documents.iplt20.com/ipl/IPLHeadshot2025/9.png"
     },
     {
       "id": "P011",

@@ -5,7 +5,7 @@ import Navbar from './Component/Navbar/Navbar'
 import SelectedPlayer from './Component/Selected-Player/SelectedPlayer'
 
 const fetchPlayer = async () => {
-  const res = await fetch('/player-info.json')
+  const res = await fetch('./player-info.json')
   return res.json()
 }
 
@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Suspense fallback={<div><span className="loading loading-infinity loading-xl"></span>
       </div>}>
-        <AvailablePlayer fetchPlayer={playerPromise} />
+        <AvailablePlayer playerPromise={playerPromise} />
       </Suspense>
       {/* <SelectedPlayer /> */}
 
