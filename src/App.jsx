@@ -8,13 +8,14 @@ const fetchPlayer = async () => {
   const res = await fetch('./player-info.json')
   return res.json()
 }
-
+const playerPromise = fetchPlayer();
 function App() {
   const [toggle, setToggle] = useState(true)
-  const playerPromise = fetchPlayer();
+  const [availableBallance,setAvailableBalance] = useState(6000000)
+  
   return (
     <>
-      <Navbar />
+      <Navbar availableBallance={availableBallance} />
       <div className='w-full max-w-[1200px] mx-auto flex justify-between items-center mt-10 px-4'>
         <h1 className='sora font-bold text-2xl'>Available Player</h1>
         <div>
@@ -29,7 +30,7 @@ function App() {
       {
         toggle === true ? <Suspense fallback={<div><span className="loading loading-infinity loading-xl"></span>
         </div>}>
-          <AvailablePlayer playerPromise={playerPromise} />
+          <AvailablePlayer availableBallance = {availableBallance} setAvailableBalance={setAvailableBalance} playerPromise={playerPromise} />
         </Suspense> : <SelectedPlayer />
       }
 

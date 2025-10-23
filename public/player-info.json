@@ -10,7 +10,7 @@
       "rating": "9.5",
       "batting_style": "Left-Hand-Bat",
       "bowling_style": "Fast Bowling",
-      "price": "$1500000",
+      "price": "1500000",
       "image_url": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1440330_1296x729.jpg"
     },
     {
@@ -21,7 +21,7 @@
       "rating": "9.1",
       "batting_style": "Right-Hand-Bat",
       "bowling_style": "Right-arm Offbreak",
-      "price": "$1400000",
+      "price": "1400000",
       "image_url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202408/rohit-sharma-131403807-3x4_0.jpg?VersionId=COBnAcc0cITb2LBHRtFiGikchODjVwYf"
     },
     {
@@ -32,7 +32,7 @@
       "rating": "8.8",
       "batting_style": "Right-Hand-Bat",
       "bowling_style": "None",
-      "price": "$1350000",
+      "price": "1350000",
       "image_url": "https://documents.iplt20.com/ipl/IPLHeadshot2025/182.png"
     },
     {
@@ -43,7 +43,7 @@
       "rating": "9.3",
       "batting_style": "Right-Hand-Bat",
       "bowling_style": "None",
-      "price": "$1300000",
+      "price": "1300000",
       "image_url": "https://www.aljazeera.com/wp-content/uploads/2024/03/AP23116421466279-1711875056.jpg?resize=1800%2C1800"
     },
     {
@@ -54,7 +54,7 @@
       "rating": "8.7",
       "batting_style": "Left-Hand-Bat",
       "bowling_style": "Left-arm Fast",
-      "price": "$1250000",
+      "price": "1250000",
       "image_url": "https://static.toiimg.com/photo/120896543.cms"
     },
     {
@@ -65,7 +65,7 @@
       "rating": "9.0",
       "batting_style": "Left-Hand-Bat",
       "bowling_style": "Right-arm Fast-Medium",
-      "price": "$1600000",
+      "price": "1600000",
       "image_url": "https://resources.ecb.co.uk/player-photos/test/800x800/1154.png"
     },
     {
@@ -76,7 +76,7 @@
       "rating": "9.2",
       "batting_style": "Right-Hand-Bat",
       "bowling_style": "Legbreak Googly",
-      "price": "$1450000",
+      "price": "1450000",
       "image_url": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/65748.png"
     },
     {
@@ -87,7 +87,7 @@
       "rating": "8.5",
       "batting_style": "Right-Hand-Bat",
       "bowling_style": "Right-arm Offbreak",
-      "price": "$1200000",
+      "price": "1200000",
       "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxpM-o1rc7j06q_yeFR_r6np9nyqWyGNlnIw&s"
     },
     {
@@ -98,7 +98,7 @@
       "rating": "8.4",
       "batting_style": "Left-Hand-Bat",
       "bowling_style": "None",
-      "price": "$1150000",
+      "price": "1150000",
       "image_url": "https://documents.iplt20.com/ipl/IPLHeadshot2025/170.png"
     },
     {
@@ -109,7 +109,7 @@
       "rating": "8.9",
       "batting_style": "Right-Hand-Bat",
       "bowling_style": "Right-arm Fast",
-      "price": "$1350000",
+      "price": "1350000",
       "image_url": "https://documents.iplt20.com/ipl/IPLHeadshot2025/9.png"
     },
     {
@@ -120,7 +120,7 @@
       "rating": "9.4",
       "batting_style": "Left-Hand-Bat",
       "bowling_style": "Left-arm Orthodox",
-      "price": "$1550000",
+      "price": "1550000",
       "image_url": "https://www.wisden.com/static-assets/images/players/3782.png"
     },
     {
@@ -131,7 +131,7 @@
       "rating": "8.6",
       "batting_style": "Left-Hand-Bat",
       "bowling_style": "Left-arm Legbreak",
-      "price": "$1200000",
+      "price": "1200000",
       "image_url": "https://www.wisden.com/static-assets/images/players/5380.png"
     }
   ],

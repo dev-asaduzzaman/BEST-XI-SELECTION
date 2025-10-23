@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 
-function Navbar() {
+function Navbar({availableBallance}) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="navbar bg-white px-6 py-4 w-full max-w-[1200px] mx-auto flex items-center justify-between">
+    <div className="navbar z-10 sticky top-0 bg-white px-6 py-4 w-full max-w-[1200px] mx-auto flex items-center justify-between">
       {/* Left: Logo */}
       <div className="flex-1">
         <a href="#" className="flex items-center gap-2">
@@ -15,17 +15,17 @@ function Navbar() {
 
       {/* Center: Menu Items (Desktop) */}
       <div className="hidden md:flex space-x-6 mr-3">
-        <a href="/" className="hover:text-primary sora">Home</a>
-        <a href="/fixture" className="hover:text-primary sora">Fixture</a>
-        <a href="/teams" className="hover:text-primary sora">Teams</a>
-        <a href="/schedules" className="hover:text-primary sora">Schedules</a>
+        <a href="/" className="hover:text-primary sora font-semibold">Home</a>
+        <a href="/fixture" className="hover:text-primary sora font-semibold">Fixture</a>
+        <a href="/teams" className="hover:text-primary sora font-semibold">Teams</a>
+        <a href="/schedules" className="hover:text-primary sora font-semibold">Schedules</a>
       </div>
 
       {/* Right: Coin Button */}
       <div className="hidden md:flex flex-none">
-        <button className="btn btn-outline text-black">
-          <span>0</span>
-          <span> Coin </span>
+        <button className=" text-black">
+          <span className="font-semibold">${availableBallance}</span>
+          <span className="font-semibold"> Coin </span>
           <span className="ml-1">🪙</span>
         </button>
       </div>
