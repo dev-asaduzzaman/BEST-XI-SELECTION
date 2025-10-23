@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import userImage from "../../assets/Group.png";
 import flagimg from "../../assets/report 1.png";
 
-const PlayerCard = ({ player, setAvailableBalance, availableBallance }) => {
+const PlayerCard = ({ player, setAvailableBalance, availableBallance , purchasePlayer , setPurchasePlayer}) => {
   const [isSelected, setIsSelected] = useState(false);
   const [alertInfo, setAlertInfo] = useState({ show: false, type: "", message: "" });
   const [progress, setProgress] = useState(100);
@@ -37,6 +37,8 @@ const PlayerCard = ({ player, setAvailableBalance, availableBallance }) => {
         message: "Not enough coins to select this player!",
       });
       return;
+      
+      
     }
 
     setAvailableBalance(availableBallance - playerData.price);
@@ -46,6 +48,7 @@ const PlayerCard = ({ player, setAvailableBalance, availableBallance }) => {
       type: "success",
       message: "Player added successfully!",
     });
+    setPurchasePlayer([...purchasePlayer,playerData])
   };
 
   return (
