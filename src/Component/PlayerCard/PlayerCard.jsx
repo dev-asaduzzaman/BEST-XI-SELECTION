@@ -97,6 +97,7 @@ const PlayerCard = ({ player, setAvailableBalance, availableBallance , purchaseP
             className="btn sora bg-[#F3F3F3] border-none text-[#000000] shadow 
                        disabled:bg-[#cccccc] disabled:text-[#666666]"
           >
+            
             {isSelected ? "Selected ✅" : "Choose Player"}
           </button>
         </div>
