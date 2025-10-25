@@ -20,6 +20,11 @@ function App() {
   setPurchasePlayer(filterData);
   availableBallance(availableBallance + p.price)
 };
+ const getPriorityColor = (priority) => {
+    if (priority === "HIGH PRIORITY") return "text-red-500";
+    if (priority === "MEDIUM PRIORITY") return "text-yellow-600";
+    return "text-green-600";
+  };
   
   return (
     <>
